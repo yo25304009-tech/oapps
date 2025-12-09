@@ -18,7 +18,7 @@ public class OregistTestServlet extends HttpServlet {
 
         // リクエストパラメータを取得する
         String username = req.getParameter("name");  // ユーザー名を取得
-        String food = req.getParameter("fod");  // パスワードを取得
+        String food = req.getParameter("food");  // パスワードを取得
 
         // リクエストにデータを登録する（結果のJSPにデータを渡すため）
         req.setAttribute("name", username);  // "name" という登録名でユーザー名を登録
