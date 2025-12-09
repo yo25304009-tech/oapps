@@ -95,22 +95,22 @@
 
     <!-- /registtest → RegistTestServlet -->
     <servlet>
-        <servlet-name>registtest</servlet-name>
-        <servlet-class>RegistTestServlet</servlet-class>
+        <servlet-name>oregisttest</servlet-name>
+        <servlet-class>oRegistTestServlet</servlet-class>
     </servlet>
     <servlet-mapping>
-        <servlet-name>registtest</servlet-name>
-        <url-pattern>/registtest</url-pattern>
+        <servlet-name>oregisttest</servlet-name>
+        <url-pattern>/oregisttest</url-pattern>
     </servlet-mapping>
 
-    <!-- /registresult → /registresult.jsp -->
+    <!-- /registresult → /oregistresult.jsp -->
     <servlet>
-        <servlet-name>registresult</servlet-name>
-        <jsp-file>/registresult.jsp</jsp-file>
+        <servlet-name>oregistresult</servlet-name>
+        <jsp-file>/oregistresult.jsp</jsp-file>
     </servlet>
     <servlet-mapping>
-        <servlet-name>registresult</servlet-name>
-        <url-pattern>/registresult</url-pattern>
+        <servlet-name>oregistresult</servlet-name>
+        <url-pattern>/oregistresult</url-pattern>
     </servlet-mapping>
 
 </web-app>
