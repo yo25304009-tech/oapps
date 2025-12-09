@@ -26,7 +26,7 @@ public class OregistTestServlet extends HttpServlet {
 
         // JSPのURLを指定する
         RequestDispatcher dispatcher =
-                req.getRequestDispatcher("/oregistresult");  // 転送先のJSPのURLを指定
+                req.getRequestDispatcher("/Oregistresult");  // 転送先のJSPのURLを指定
 
         // JSPにリクエストを転送する
         dispatcher.forward(req, res);
