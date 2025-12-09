@@ -22,7 +22,7 @@ public class OregistTestServlet extends HttpServlet {
 
         // リクエストにデータを登録する（結果のJSPにデータを渡すため）
         req.setAttribute("name", username);  // "name" という登録名でユーザー名を登録
-        req.setAttribute("food", foodname);  // "food" という登録名でパスワードを登録
+        req.setAttribute("food", food);  // "food" という登録名でパスワードを登録
 
         // JSPのURLを指定する
         RequestDispatcher dispatcher =
