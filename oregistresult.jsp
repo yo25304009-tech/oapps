@@ -8,8 +8,8 @@
 <body>
     <h1>登録されたユーザー</h1>
     <table border="1">
-        <tr><th>ユーザー名</th><th>パスワード</th></tr>
-        <tr><td>${name}</td><td>${pass}</td></tr>
+        <tr><th>ユーザー名</th><th>食べ物</th></tr>
+        <tr><td>${name}</td><td>${food}</td></tr>
     </table>
 </body>
 </html>
