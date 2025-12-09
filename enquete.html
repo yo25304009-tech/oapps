@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <title>アンケート</title>
+  </head>
+  <body>
+    <h1>アンケート</h1>
+    <form action="RequestRecv" method="POST">
+      <p>好きなヒーローは？</p>
+      <input type="text" name="hero" />
+      <p>ジャンルは？</p>
+      <input type="radio" name="genre" value="ウルトラマン" />ウルトラマン<br />
+      <input type="radio" name="genre" value="仮面ライダー" />仮面ライダー<br />
+      <input type="radio" name="genre" value="スーパー戦隊" />スーパー戦隊<br />
+      <input type="radio" name="genre" value="アベンジャーズ"/>アベンジャーズ<br />
+      <input type="radio" name="genre" value="その他" />その他<br />
+      <input type="submit" value="送信" />
+    </form>
+  </body>
+</html>

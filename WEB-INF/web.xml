@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app>
+    <!-- サーブレットの登録 -->
+    <servlet>
+        <!-- サーブレット名を hello として登録する -->
+        <servlet-name>hello</servlet-name>
+        <!-- サーブレットクラスは HelloServlet（拡張子は付けない） -->
+        <servlet-class>HelloServlet</servlet-class>
+    </servlet>
+
+    <!-- URLとサーブレットの対応付け -->
+    <servlet-mapping>
+        <!-- 上で登録した hello というサーブレット名を指定する -->
+        <servlet-name>hello</servlet-name>
+        <!-- /hello というパスにアクセスしたとき、helloサーブレットを実行する -->
+        <url-pattern>/hello</url-pattern>
+    </servlet-mapping>
+
+     <servlet>
+        <!-- サーブレット名を hello として登録する -->
+        <servlet-name>bye</servlet-name>
+        <!-- サーブレットクラスは HelloServlet（拡張子は付けない） -->
+        <servlet-class>ByeByeServlet</servlet-class>
+    </servlet>
+
+    <!-- URLとサーブレットの対応付け -->
+    <servlet-mapping>
+        <!-- 上で登録した hello というサーブレット名を指定する -->
+        <servlet-name>bye</servlet-name>
+        <!-- /hello というパスにアクセスしたとき、helloサーブレットを実行する -->
+        <url-pattern>/byebye</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+    <servlet-name>TeacherServlet</servlet-name> 
+    <servlet-class>your.package.TeacherServlet</servlet-class>
+    </servlet>
+
+    <servlet-mapping>
+    <servlet-name>TeacherServlet</servlet-name>
+    <url-pattern>/TeacherServlet</url-pattern> 
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>time</servlet-name>
+        <jsp-file>/CurrentTime.jsp</jsp-file>
+    </servlet>
+
+    <servlet-mapping>
+        <servlet-name>time</servlet-name>
+        <url-pattern>/CurrentTime</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>my_name</servlet-name>
+        <servlet-class>MyName</servlet-class>
+    </servlet>
+
+    <servlet-mapping>
+        <servlet-name>my_name</servlet-name>
+        <url-pattern>/MyName</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>counter</servlet-name>
+        <servlet-class>Counter</servlet-class>
+    </servlet>
+
+    <servlet-mapping>
+        <servlet-name>counter</servlet-name>
+        <url-pattern>/Counter</url-pattern>
+    </servlet-mapping>
+ 
+
+ <servlet>
+        <servlet-name>familyname</servlet-name>
+        <servlet-class>Familyname</servlet-class>
+    </servlet>
+
+    <servlet-mapping>
+        <servlet-name>familyname</servlet-name>
+        <url-pattern>/Familyname</url-pattern>
+    </servlet-mapping>
+    
+
+    <!-- /inputtest → /input.jsp -->
+    <servlet>
+        <servlet-name>inputtest</servlet-name>
+        <jsp-file>/input.jsp</jsp-file>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>inputtest</servlet-name>
+        <url-pattern>/inputtest</url-pattern>
+    </servlet-mapping>
+
+    <!-- /registtest → RegistTestServlet -->
+    <servlet>
+        <servlet-name>registtest</servlet-name>
+        <servlet-class>RegistTestServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>registtest</servlet-name>
+        <url-pattern>/registtest</url-pattern>
+    </servlet-mapping>
+
+    <!-- /registresult → /registresult.jsp -->
+    <servlet>
+        <servlet-name>registresult</servlet-name>
+        <jsp-file>/registresult.jsp</jsp-file>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>registresult</servlet-name>
+        <url-pattern>/registresult</url-pattern>
+    </servlet-mapping>
+
+</web-app>
+
+
