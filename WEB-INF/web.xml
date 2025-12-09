@@ -93,10 +93,10 @@
         <url-pattern>/inputtest</url-pattern>
     </servlet-mapping>
 
-    <!-- /registtest → RegistTestServlet -->
+    <!-- /registtest → OregistTestServlet -->
     <servlet>
         <servlet-name>oregisttest</servlet-name>
-        <servlet-class>oRegistTestServlet</servlet-class>
+        <servlet-class>OregistTestServlet</servlet-class>
     </servlet>
     <servlet-mapping>
         <servlet-name>oregisttest</servlet-name>
