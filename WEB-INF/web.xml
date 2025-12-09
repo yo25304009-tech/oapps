@@ -85,12 +85,12 @@
 
     <!-- /inputtest → /input.jsp -->
     <servlet>
-        <servlet-name>inputtest</servlet-name>
-        <jsp-file>/input.jsp</jsp-file>
+        <servlet-name>oinputtest</servlet-name>
+        <jsp-file>/oinput.jsp</jsp-file>
     </servlet>
     <servlet-mapping>
-        <servlet-name>inputtest</servlet-name>
-        <url-pattern>/inputtest</url-pattern>
+        <servlet-name>oinputtest</servlet-name>
+        <url-pattern>/oinputtest</url-pattern>
     </servlet-mapping>
 
     <!-- /registtest → OregistTestServlet -->
